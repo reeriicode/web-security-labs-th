@@ -1,5 +1,13 @@
 # Anti-hacking matters — ชุดแล็บความปลอดภัยเว็บ (ภาษาไทย)
 
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Labs](https://img.shields.io/badge/Labs-10-blue)
+![Node.js](https://img.shields.io/badge/Node.js-%E2%89%A518-339933?logo=node.js&logoColor=white)
+![Dependencies](https://img.shields.io/badge/dependencies-0%20(built--in%20only)-brightgreen)
+![Docs](https://img.shields.io/badge/Docs-ภาษาไทย-orange)
+![Purpose](https://img.shields.io/badge/Purpose-Education%20%2F%20Training-blueviolet)
+![Status](https://img.shields.io/badge/⚠_Intentionally-Vulnerable-red)
+
 ชุดแล็บสำหรับเรียนรู้ช่องโหว่เว็บยอดฮิตและวิธีป้องกัน แต่ละหัวข้อเป็นโปรเจกต์แยกกัน
 มีทั้งหน้าที่ **มีช่องโหว่ (VULNERABLE)** ให้ลองโจมตี และหน้าที่ **แก้แล้ว (SAFE)** ให้เทียบกัน
 พร้อมไฟล์ `README.md` อธิบายภาษาไทยในทุกโฟลเดอร์
