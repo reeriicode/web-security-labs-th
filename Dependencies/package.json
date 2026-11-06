@@ -1,0 +1,12 @@
+{
+  "name": "dependencies-lab",
+  "version": "1.0.0",
+  "description": "แล็บเรียนรู้ OWASP A06:2021 Vulnerable and Outdated Components — แดชบอร์ดจำลองการตรวจ dependency (Node.js built-in เท่านั้น ไม่ต้อง npm install)",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

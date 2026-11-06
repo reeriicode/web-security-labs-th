@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "cors-lab",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["server.js"],
+      "port": 4400,
+      "url": "http://localhost:4400"
+    }
+  ]
+}

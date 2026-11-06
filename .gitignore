@@ -1,0 +1,23 @@
+# dependencies (แล็บทั้งหมดใช้ Node built-in ไม่ต้องมี node_modules แต่กันไว้)
+node_modules/
+package-lock.json
+
+# ไฟล์ที่ผู้เรียนอัปโหลดระหว่างลองแล็บ File-Upload (เก็บโฟลเดอร์ไว้ด้วย .gitkeep)
+File-Upload/uploads/*
+!File-Upload/uploads/.gitkeep
+
+# ไฟล์ .env จริง (ห้าม commit!) — เก็บเฉพาะ .env.example
+.env
+.env.*
+!.env.example
+
+# log / temp
+*.log
+npm-debug.log*
+
+# ไฟล์ของระบบปฏิบัติการ / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

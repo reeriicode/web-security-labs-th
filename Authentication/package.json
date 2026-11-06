@@ -1,0 +1,9 @@
+{
+  "name": "authentication-lab",
+  "version": "1.0.0",
+  "description": "แล็บฝึกทำความเข้าใจช่องโหว่การยืนยันตัวตน (Broken Authentication) เพื่อการเรียนรู้การป้องกัน รันบนเครื่องตัวเองเท่านั้น",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  }
+}

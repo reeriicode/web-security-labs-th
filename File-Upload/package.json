@@ -1,0 +1,11 @@
+{
+  "name": "file-upload-lab",
+  "version": "1.0.0",
+  "description": "แล็บฝึก Insecure File Upload (ตั้งใจให้มีช่องโหว่) สำหรับการเรียนรู้บนเครื่องตัวเอง",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT"
+}

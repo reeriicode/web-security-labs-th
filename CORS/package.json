@@ -1,0 +1,9 @@
+{
+  "name": "cors-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "แล็บฝึกทำความเข้าใจและป้องกัน CORS misconfiguration (Node.js built-in เท่านั้น ไม่ต้อง npm install) — ใช้เรียนรู้บนเครื่องตัวเองเท่านั้น",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

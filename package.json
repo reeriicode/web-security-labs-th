@@ -1,0 +1,10 @@
+{
+  "name": "anti-hacking-matters-labs",
+  "version": "1.0.0",
+  "description": "ชุดแล็บความปลอดภัยเว็บภาษาไทย (ตั้งใจให้มีช่องโหว่เพื่อการศึกษา) รันบนเครื่องตัวเองเท่านั้น",
+  "private": true,
+  "scripts": {
+    "start": "node run-all.js"
+  },
+  "license": "MIT"
+}

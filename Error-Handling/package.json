@@ -1,0 +1,9 @@
+{
+  "name": "error-handling-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "แล็บฝึกเรื่อง Improper Error Handling / Information Disclosure (รันบน 127.0.0.1 เท่านั้น เพื่อการศึกษาการป้องกัน)",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
